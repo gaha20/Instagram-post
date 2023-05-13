@@ -1,0 +1,24 @@
+.card {
+
+font-family: 'Roboto Flex', sans-serif;
+}
+
+.card-title {
+    font-size: 70%;
+    margin: 2px;
+    font-weight: bold;
+}
+
+#comment {
+    font-size: 65%;
+    text-align: justify;
+}
+
+#liked {
+    font-weight: bold;
+}
+
+#likedby {
+    font-size: 10px;
+}
+
