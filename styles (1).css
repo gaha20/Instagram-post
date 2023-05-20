@@ -1,24 +1,36 @@
-.card {
-
-font-family: 'Roboto Flex', sans-serif;
+* {
+    font-family: 'Roboto Flex', sans-serif;
 }
-
-.card-title {
-    font-size: 70%;
-    margin: 2px;
+.post{
+    box-sizing: border-box;
+    width: 420px;
+    padding:5px;
+    float: left;
+}
+.post-header{
+    display:flex;
+    width: 100%;
+}
+.fa-instagram{
+    font-size:xx-large;
+}
+.post-img{
+    padding:2px;
+}
+.ac_user{
     font-weight: bold;
 }
 
-#comment {
-    font-size: 65%;
+.liked{
+    display:flex;
+    font-size:10px;
+}
+.like-ac{
+    margin-left:5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.comment {
+    font-size: 10px;
     text-align: justify;
 }
-
-#liked {
-    font-weight: bold;
-}
-
-#likedby {
-    font-size: 10px;
-}
-
